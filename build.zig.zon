@@ -1,0 +1,14 @@
+.{
+    .name = "zig-stm32f3discovery-play",
+    .version = "0.1.0",
+    .dependencies = .{
+        .microzig = .{
+            .url = "https://github.com/ZigEmbeddedGroup/microzig/archive/b60a45c3162e8ca76c0f6c23424316abe5c2464e.tar.gz",
+            .hash = "122098a603fec40519f78c2dc2aeaf715956c6315cbfa6cae6334bf28b74c5416fc0",
+        },
+        .stm32 = .{
+            .url = "https://github.com/ZigEmbeddedGroup/stmicro-stm32/archive/ec38467975b6271fc791f1c25aeb8ef2b483612a.tar.gz",
+            .hash = "122064447fcb06c149094e027a4a4e4ce152adabaae3755500459339109d91d3b8e2",
+        },
+    },
+}
